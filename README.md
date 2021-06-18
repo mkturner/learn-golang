@@ -3,9 +3,9 @@
 Tracking progress following Naveen Ramanathan's [Go tutorial](https://golangbot.com/learn-golang-series/)
 
 - [x] Installation
-- [ ] Hello World
+- [x] Hello World
 
-- [ ] Variables
+- [x] Variables
 - [ ] Types
 - [ ] Constants
 
