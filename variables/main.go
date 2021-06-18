@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	var age int // variable declaration
@@ -39,4 +42,25 @@ func main() {
 	)
 
 	fmt.Println("my name is", myName, "age is", myAge, "and height is", myHeight)
+
+	// shorthand declaration :=
+	// will infer type in functions/blocks
+	count := 10
+	fmt.Println("Count = ", count)
+
+	// multiple shorthand declarations
+	favoriteColor, favoriteFood := "gold", "pizza"
+	fmt.Println("My favorite color is", favoriteColor, "and my favorite food is", favoriteFood)
+
+	// error: each left-hand variable must have value assigned on right
+	// name, age := "marvin"
+
+	// at least one of the variables used in a shorthand syntax must be new
+
+	// variables computed at runtime
+	a, b := 145.8, 543.6
+	c := math.Min(a, b)
+	fmt.Println("Minimum value is", c)
+
+	// REMEMBER: Go is strongly typed, vars of one type cannot be reassigned to another type
 }
