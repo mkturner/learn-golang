@@ -6,7 +6,7 @@ Tracking progress following Naveen Ramanathan's [Go tutorial](https://golangbot.
 - [x] Hello World
 
 - [x] Variables
-- [ ] Types
+- [x] Types
 - [ ] Constants
 
 - [ ] Functions
