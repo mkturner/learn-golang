@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	// declare a single constant
@@ -16,4 +18,14 @@ func main() {
 		country = "Belize"
 	)
 	fmt.Println(name, "from", country, "aged", age)
+
+	// error to try to change the value of a const
+	// country = "Panama"
+
+	// value of a const must be known at compile time
+	// cannot be assigned to a returned func value
+	// because the call happens at runtime
+	// error
+	// const b = math.Sqrt(4)
+
 }
